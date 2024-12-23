@@ -19,6 +19,12 @@ namespace Webtaskapp.Controllers
         public IActionResult ChangePassword()
         {
             return View();
+            
+        }
+         public IActionResult Password()
+        {
+            return View();
+            
         }
 
     }
